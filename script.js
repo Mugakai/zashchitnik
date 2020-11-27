@@ -15,7 +15,7 @@ bot.on('ready', () => {
 bot.on('message', (msg) => {
     const args = msg.content.slice(settings.prefix.length).trim().split(' ');
     if (chars.includes(args.values)) {
-        return msg.reply('.>>.<<.');
+        return msg.reply('.>>teste<<.');
     }     
 });
 
